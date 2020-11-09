@@ -5,8 +5,9 @@
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     height: 350px;
+    margin: 0 auto;
 }
 
 .container .button-container {
@@ -26,7 +27,7 @@
     background-color: #eee;
 }
 
-.container .button-container button:hover {
+ .container .button-container .btn-color {
     background-color: #d7d4d4;
 }
 
@@ -40,4 +41,8 @@
     font-family: sans-serif;
     font-size: 22px;
     display: none;
+}
+
+.container .tab-show {
+    display: block;
 }
